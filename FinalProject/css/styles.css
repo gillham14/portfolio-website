@@ -1,0 +1,154 @@
+/*
+
+    Author: Samantha Gillham
+    File Name: styles.css
+    Today's Date: 12/8/2024
+    
+*/
+
+
+/* General Style Rules */
+body {
+    font-family: "Hubot Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffffff, #ded3b8);
+    color: #333232;
+    line-height: 1.6;
+}
+
+/* Style Rules for Header */
+header {
+    background-color: #a7d2da;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Style Rules for Sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(52, 52, 54, 0.1);
+    border: 2px solid #a7d2da;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color:#66655b;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Style Rules for Paragraph */
+section p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/* Style Rules for Image */
+#image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 4px solid#e5cca5;
+    border-radius: 10px;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 4px solid #e5cca5;
+    border-radius: 10px;
+}
+
+.image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Style Rules for Video */
+#video iframe {
+    display: block;
+    margin: 10px auto;
+    border: 4px solid #e5cca5;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Style Rules for Links */
+#link a {
+    text-decoration: none;
+    color: #e5cca5;
+    font-weight: bold;
+    border-bottom: 2px dashed#e5cca5;
+    transition: color 0.3s, border-bottom-color 0.3s;
+    text-align: center;
+}
+
+#link a:hover {
+    color: #a7d2da;
+    border-bottom-color: #a7d2da;
+}
+
+/* Style Rules for Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 2px solid #a7d2da;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #444;
+}
+
+th {
+    background-color: #a7d2da;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Style Rules for Bulleted List */
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+    color: #66655b;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    background-color:#a7d2da;
+    color: white;
+    margin-top: 20px;
+}
+
